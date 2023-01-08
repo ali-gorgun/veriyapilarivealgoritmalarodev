@@ -1,0 +1,29 @@
+
+[16,21,11,8,12,22] -> Merge Sort
+
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+2 ye ayırarak başlıyoruz çift haneli olduğu için kolayca bölündü 
+[16,21,11]  [8,12,22]
+
+daha sonrasında ikiye ayırdığım diziyi tekrar ikiye ayırıyorum.
+[16] [21,11] [8,12] [22]
+
+sayıların hepsını ayırdım.
+[16] [21] [11] [8] [12] [22]
+
+2 li gruplar olarak tekrar birleştirdim ve küçük olanları sola yazdım.
+[16,21] - [8,11] - [12,22]
+
+8 i sola 11 sağa olacak sekilde tüm gurubu 2 ye ayırdım ve artık tam sıralı şekilde yapabiliriz.
+[8,16,21] [11,12,22]
+
+artık tam sıralı şekilde yapabiliriz.
+[8,11,12,16,21,22]
+
+
+
+Big-O gösterimini yazınız.
+ 
+ 0(nlogn)

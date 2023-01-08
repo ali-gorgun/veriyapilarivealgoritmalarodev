@@ -1,2 +1,0 @@
-# veriyapilarivealgoritmalarodev
-Selection Sort Projesi
